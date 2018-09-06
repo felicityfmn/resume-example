@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Work+Sans');
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+}
+.intro{
+  height:100%;
+  width:100%;
+  margin:auto;
+  background: url(https://68.media.tumblr.com/b43f5cbdebdbba84d722b9b885c1ee86/tumblr_n177txSTgA1qax2qko1_500.gif) no-repeat 50% 50%;
+  background-color: black;
+  display: table;
+  top:0;
+}
+.intro.inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+
+}
+.content{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn{
+  border-radius: 9px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 0px 0px 300px white;
+  font-size: 400%;
+  padding: 10px 20px;
+  border: solid white 3px;
+  decoration: none;
+  text-transform: uppercase;
+}
+.btn:hover{
+  opacity: 0.5;
+  transition: 0.7s;
+}
